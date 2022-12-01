@@ -1,6 +1,11 @@
 on:
   push:
   workflow_dispatch:
+    inputs:
+      name:
+        description: 'test ?'
+        default: 'yes'
+        required: true
 
 jobs:
   hello_world_job:
