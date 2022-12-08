@@ -12,7 +12,7 @@ on:
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: sample
     steps:
       - uses: actions/checkout@v3
       - id: foo
